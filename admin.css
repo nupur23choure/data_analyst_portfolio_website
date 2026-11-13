@@ -1,0 +1,32 @@
+/* Floating button (only you see it, when logged in) + admin page styles */
+.fab { position: fixed; right: 24px; bottom: 24px; z-index: 50; background: #ececf0; color: #111; font-weight: 700; padding: 14px 24px; border-radius: 999px; box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+.fab:hover { transform: translateY(-2px); }
+
+.admin { max-width: 860px; margin: 0 auto; padding: 50px 24px 80px; }
+.admin h1 { font-size: 2.6rem; margin-bottom: 6px; }
+.admin .sub { color: var(--muted); margin-bottom: 30px; }
+.panel { background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 28px; margin-bottom: 36px; }
+.panel h2 { font-size: 1.5rem; margin-bottom: 18px; }
+.field { margin-bottom: 18px; }
+.field label { display: block; font-weight: 500; margin-bottom: 6px; color: #ddd; }
+.field small { color: var(--muted); display: block; margin-top: 4px; }
+.field input[type=text], .field input[type=email], .field input[type=password], .field input[type=url], .field textarea {
+  width: 100%; background: #08080a; border: 1px solid #333; color: #fff; padding: 12px 14px; border-radius: 12px; font-family: var(--sans); font-size: 1rem; }
+.field input:focus, .field textarea:focus { outline: none; border-color: #aaa; }
+.field textarea { min-height: 90px; resize: vertical; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.check { display: flex; gap: 10px; align-items: center; }
+.preview { margin-top: 12px; max-width: 360px; border-radius: 14px; border: 1px solid var(--line); display: none; }
+.actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.msg { margin-top: 14px; font-size: .95rem; }
+.msg.ok { color: #7ee2a0; } .msg.err { color: #ff8a8a; }
+.item { display: flex; gap: 16px; align-items: center; padding: 14px 0; border-top: 1px solid var(--line); }
+.item img, .item .ph { width: 84px; height: 56px; object-fit: cover; border-radius: 10px; background: #1b1b20; flex: none; }
+.item .info { flex: 1; min-width: 0; }
+.item .info b { display: block; }
+.item .info span { color: var(--muted); font-size: .9rem; }
+.mini { background: transparent; color: #fff; border: 1px solid #555; border-radius: 999px; padding: 6px 16px; cursor: pointer; font-family: var(--sans); }
+.mini:hover { background: #222; }
+.mini.del { border-color: #7a3a3a; color: #ff9a9a; }
+.hidden { display: none !important; }
+@media (max-width: 640px) { .two { grid-template-columns: 1fr; } }

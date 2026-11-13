@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nupur | Data Analyst Portfolio</title>
+  <meta name="description" content="Data analytics fresher skilled in Power BI, SQL, Python and Excel.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#top">Nupur</a>
+    <nav><ul>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div><div class="orb o4"></div>
+    <div class="wrap">
+      <!-- Put your photo in the same folder as photo.png -->
+      <div class="photo"><img src="photo.png" alt="Nupur" onerror="this.remove(); this.parentNode.textContent='N'"></div>
+      <div>
+        <h1>My<br>Portfolio</h1>
+        <p>I turn raw data into clear dashboards and useful insights. Data analytics fresher skilled in Power BI, SQL, Python and Excel, looking for a data analyst role across India.</p>
+        <div class="btns">
+          <a class="btn ghost" href="#about">About me</a>
+          <a class="btn solid" href="#projects">See my projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <div>
+        <h2>About me</h2>
+        <p>I'm a data analytics fresher who enjoys the visual side of data: cleaning it, finding the story in it and presenting it in a dashboard that anyone can understand at a glance.</p>
+        <p>I build reports in Power BI and back them with SQL, Python and Excel. <!-- Replace with one line about the kind of business problems you like solving. --></p>
+        <a class="btn dark" href="#projects">My projects</a>
+      </div>
+      <div id="skills">
+        <h3>Skills</h3>
+        <div class="skills">
+          <div class="skill"><h4>Power BI</h4><hr><span>Dashboards and reports</span></div>
+          <div class="skill"><h4>SQL</h4><hr><span>Queries, joins, aggregations</span></div>
+          <div class="skill"><h4>Python</h4><hr><span>Data cleaning and EDA</span></div>
+          <div class="skill"><h4>Excel</h4><hr><span>Pivots and formulas</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="wrap">
+      <div class="proj-head">
+        <div>
+          <h2>Projects</h2>
+          <p>Swipe or use the arrows to browse my work.</p>
+        </div>
+        <div class="arrows">
+          <button class="arrow" id="prev" aria-label="Previous">←</button>
+          <button class="arrow" id="next" aria-label="Next">→</button>
+        </div>
+      </div>
+      <div class="track" id="track"></div>
+      <div class="center"><a class="btn solid" href="projects.html">Show all projects</a></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2>Let's work together</h2>
+      <p>Open to data analyst roles. Send me a message or have a look at my work on GitHub.</p>
+      <div class="btns">
+        <a class="btn solid" href="https://mail.google.com/mail/?view=cm&fs=1&to=nupur.choure1@gmail.com" target="_blank" rel="noopener">Email me</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/nupur-choure-923314390" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/nupur23choure" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>Designed and built by Nupur</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="projects-data.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
