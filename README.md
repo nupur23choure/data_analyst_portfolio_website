@@ -2,7 +2,7 @@
 
 Welcome to my personal Data Analyst Portfolio Website! This portfolio showcases my skills, projects, and technical expertise in Data Analytics, Business Intelligence, and Data Visualization.
 
-🌐 **Live Website:** [Portfolio Link]([https://your-netlify-link.netlify.app](https://frolicking-biscotti-15ff94.netlify.app/))
+🌐 **Live Website:** [Portfolio Link]([https://your-netlify-link.netlify.app](https://frolicking-biscotti-15ff94.netlify.app/])
 
 ---
 
