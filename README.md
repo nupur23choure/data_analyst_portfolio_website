@@ -1,58 +1,26 @@
-# Data Analyst Portfolio Website 🚀
+# Data Analyst Portfolio
 
-Welcome to my personal Data Analyst Portfolio Website! This portfolio showcases my skills, projects, and technical expertise in Data Analytics, Business Intelligence, and Data Visualization.
+Welcome to my portfolio! Here you will find my data analysis projects, technical skills, and background in business intelligence.
 
 🌐 **Live Website:** [Portfolio Link](https://frolicking-biscotti-15ff94.netlify.app)
----
-
-## 📋 About
-
-This website was created to present my work, technical skills, and analytics projects in a professional, clean, and interactive format. 
-
-The portfolio highlights my expertise in:
-* SQL
-* Python
-* Power BI
-* Advanced Excel & LibreOffice Calc
-* Data Cleaning & Transformation
-* Data Visualization
-* Business Analysis
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Skills
 
-* **Frontend:** HTML5, CSS3, JavaScript
-* **Deployment:** Netlify
-
----
-
-## 📂 Features
-
-* Responsive, minimalist design optimized for all devices
-* Professional Portfolio Layout
-* About Me Section
-* Interactive Skills Showcase
-* Project Gallery
-* Contact Information & Direct Email Integration
+* **Languages & Querying:** Python, SQL
+* **BI & Visualization:** Power BI, Advanced Excel, LibreOffice Calc
+* **Core Competencies:** Data Cleaning, Data Transformation, Business Analysis, KPI Tracking
 
 ---
 
-## 📊 Projects Included
+## 📂 Projects
 
-The portfolio features practical, end-to-end projects related to:
-* Sales Data Analysis & Revenue Trends
-* Advanced SQL Query Optimization
-* Interactive Power BI Dashboards
-* Comprehensive Excel Business Reports
-* Data Cleaning and Transformation Workflows
-* Executive KPI Card Design & Metric Tracking
+* **Sales Data Analysis:** Analyzed revenue trends and transaction performance using SQL and Python.
+* **Power BI Dashboards:** Built interactive dashboards focusing on key business metrics and executive KPI cards.
+* **Excel Business Reports:** Created structured reports with automated summaries and data cleaning workflows.
 
 ---
-
-## 🎯 Objective
-
-My goal is to leverage data to uncover actionable insights, solve complex business problems, and support data-driven decision-making. This portfolio demonstrates my analytical thinking and practical experience working with real-world datasets.
 
 
 ## ⭐ Feedback
